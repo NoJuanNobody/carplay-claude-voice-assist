@@ -1,0 +1,81 @@
+# Rails
+backend/log/*
+backend/tmp/*
+backend/storage/*
+backend/config/master.key
+backend/config/credentials/*.key
+!backend/log/.keep
+!backend/tmp/.keep
+!backend/storage/.keep
+
+# Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Bundler
+backend/vendor/bundle
+.bundle
+
+# Swift
+.build/
+.swiftpm/
+ios/CarPlayAssistant/.build/
+ios/CarPlayAssistant/.swiftpm/
+*.xcodeproj/
+xcuserdata/
+*.xcworkspace/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Docker
+docker-compose.override.yml
+
+# Node (in case added later)
+node_modules/
